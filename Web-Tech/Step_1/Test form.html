@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="getform.php" method="get">
+        <fieldset>
+            <legend>Общая информация</legend>
+            <div class="main">
+            <div class="field">
+                <label for="surname">Фамилия</label>
+                <input id="surname" type="text" name="surname" placeholder="Иванов">
+            </div>
+            <div class="field">
+                <label for="name">Имя</label>
+                <input id="name" type="text" name="name" placeholder="Иван">
+            </div>
+            <div class="field">
+                <label for="secondname">Отчество</label>
+                <input id="secondname" type="text" name="secondname" placeholder="Иванович">
+            </div>
+            <div class="field">
+                <label for="email">email</label>
+                <input id="email" type="email" name="email" placeholder="mail@mail.ru">
+            </div>
+        </div>
+        </fieldset>
+        <p><fieldset>
+            <legend>Пол</legend>
+            <div>
+              <input type="radio" id="Sex M" name="Sex" value="Male">
+                  <label for="Sex M">М</label>
+            <input type="radio" id="Sex F" name="Sex" value="Female">
+              <label for="Sex F">Ж</label>
+          </div>
+      </fieldset></p>
+      <p><fieldset>
+        <legend>Хобби</legend>
+        <div>
+        <input type="checkbox" id="Choose1" name="Hobby" value="Painting">
+                  <label for="Choose1">Рисование</label>
+          <input type="checkbox" id="Choose2" name="Hobby" value="Reading">
+                  <label for="Choose2">Чтение</label>
+          <input type="checkbox" id="Choose3" name="Hobby" value="Knitting">
+                  <label for="Choose3">Вязание</label>
+          <input type="checkbox" id="Choose4" name="Hobby" value="Cooking">
+                  <label for="Choose4">Кулинария</label>
+        </div>
+  </fieldset>
+  <a><p><input type="submit" value="Отправить">
+    <input type="reset" value="Очистить">
+    </form>
+</body>
+</html>
